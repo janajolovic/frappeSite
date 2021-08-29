@@ -1048,3 +1048,67 @@ display: block;
     width: 230px;
     margin: 0px 0px 10px 50px;
 }
+
+.ourteam_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.ourteam {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourteam_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.ourteam_card {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourteam img {
+    border-radius: 50%;
+    width: 220px;
+    margin-left: 15px;
+}
+
+.ourteam h2, h3, p {
+    font-family: Quicksand;
+    text-align: center;
+}
+
+.ourteam h2 {
+    color: #5a5a5a;
+}
+
+.ourteam h3 {
+    color: #fbbcc0;
+    margin-top: -15px;
+}
+
+.ourteam p {
+    color: #818181;
+    width: 300px;
+    margin-top: -5px;
+}
+
+.ourteam_icons i {
+    color: #5a5a5a;
+    margin: 0px 5px;
+}
+
+.ourteam_icons i:hover {
+    color: #b4b4b4;
+}
